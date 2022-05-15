@@ -1,5 +1,5 @@
 # easyscrape-bonanzasuggest
-Scrape Etsy search suggestions with Python
+Scrape Bonanza search suggestions with Python
 
 <img src="https://github.com/amazingjoe/amazingjoe.github.io/blob/main/imgs/Easyscrape.png" width="50%"/>
 
