@@ -1,4 +1,4 @@
-# easyscrape-etsysuggest
+# easyscrape-bonanzasuggest
 Scrape Etsy search suggestions with Python
 
 <img src="https://github.com/amazingjoe/amazingjoe.github.io/blob/main/imgs/Easyscrape.png" width="50%"/>
@@ -8,19 +8,19 @@ Scrape Etsy search suggestions with Python
 1. Install:
 
 ```
-pip install easyscrape-etsysuggest
+pip install easyscrape-bonanzasuggest
 ```
 
 2. Get Etsy Suggestions for a Search Term:
 
 ```python
-from easyscrape_etsysuggest import querysuggestions as ES
+from easyscrape_bonanzasuggest import querysuggestions as BS
 
 # Request suggestions for a search term
-ESResults = ES.query("Mony Python")
-ESResults
+BSResults = BS.query("Mony Python")
+BSResults
 
-['monty python', 'monty python doormat', 'monty python sticker', 'monty python shirt', 'monty python holy grail', 'monty python t-shirt', 'monty python clock', 'monty python car decal', 'monty python costume', 'monty python rugs', 'monty python pin']
+['monty python holy', 'monty python', 'nwt monty python', 'monty python ', 'monty python newt', 'monty python and', 'monty python tv']
 ```
 
-3. ES query returns a list of strings with the results.
+3. BS query returns a list of strings with the results.
